@@ -24,15 +24,15 @@ This code attempts to do the same thing as the Async code, but it works as expec
 ## Promise Code
 This code does the exact same thing as the Callback Code, but its syntactically different. Promises are the most accepted way to manage the oder of execution
 
-# CoRoutine Code
+## CoRoutine Code
 This code does the exact same thing as the Callback Code and Promise Code. Again its jut syntactically different. This is my preferred method of managing the order of execution because it looks cleaner and more familiar than callsbacks or promises.
 
-# Simple server
+## Simple server
 This code will create a simple http server. If you go to localhost:8080, it will send back res.writeHead(...) as the header and res.end(...) as the body. In this instance, I'm sending back a json.
 
 This server is too simple to be incredibly useful. However, its create for just hosting some static files.
 
-# Express Server
+## Express Server
 This code uses express js to create a server.
 
 ExpressJS is like the Spring of NodeJS. Its the most widely used webframework to create web applications using node.
